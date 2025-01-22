@@ -49,12 +49,14 @@ async function checkStatus() {
                     const statusIcons = {
                         operational: '🟢',
                         partial_outage: '🟠',
+                        degraded_performance: '🟠',
                         major_outage: '🔴'
                     };
 
                     const statusText = {
                         operational: 'Opérationnel',
                         partial_outage: 'Panne partielle',
+                        degraded_performance: 'Performance Dégradée',
                         major_outage: 'Panne majeure'
                     };
 
