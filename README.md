@@ -27,8 +27,8 @@ Avant de commencer, assurez-vous d'avoir installé :
 ### 1. Cloner le projet
 Commencez par télécharger les fichiers du bot sur votre machine. Ouvrez un terminal et exécutez la commande suivante :
 ```bash
-git clone https://github.com/votre-utilisateur/votre-depot.git
-cd votre-depot
+git clone https://github.com/cyrillou50/discord-status-FiveM.git
+cd discord-status-FiveM
 ```
 
 ### 2. Installer les dépendances
