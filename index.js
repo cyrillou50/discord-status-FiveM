@@ -63,7 +63,6 @@ async function checkStatus() {
                     const statusIcon = statusIcons[service.status] || '⚪';
                     const statusLabel = statusText[service.status] || 'Inconnu';
 
-                    // Inclure la date et l'heure
                     const updatedAt = new Date(service.updated_at || Date.now()).toLocaleString('fr-FR', {
                         day: '2-digit',
                         month: '2-digit',
@@ -71,7 +70,7 @@ async function checkStatus() {
                         hour: '2-digit',
                         minute: '2-digit',
                         second: '2-digit',
-                        hour12: false, // Format 24h
+                        hour12: false,
                     });
 
                     return `${statusIcon} **${service.name}**\nStatut : **${statusLabel}**\nDernière mise à jour : ${updatedAt}`;
