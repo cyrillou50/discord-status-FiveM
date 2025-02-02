@@ -50,6 +50,7 @@ async function checkStatus() {
                         operational: '🟢',
                         partial_outage: '🟠',
                         degraded_performance: '🟠',
+                        under_maintenance: '🟠',
                         major_outage: '🔴'
                     };
 
@@ -57,6 +58,7 @@ async function checkStatus() {
                         operational: 'Opérationnel',
                         partial_outage: 'Panne partielle',
                         degraded_performance: 'Performance Dégradée',
+                        under_maintenance: 'En maintenance',
                         major_outage: 'Panne majeure'
                     };
 
